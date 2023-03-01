@@ -15,7 +15,7 @@ public class pflevels {
         int k=1;
                for (int i=1;i<=10;i++) {
                     for (int j=1;j<=10;j++) {
-                        int c=(int)((Math.random() * (2 - 0 + 1) + 0));
+                        int c=(int)((Math.random() * (2  + 1) + 0));
 
                         System.out.printf("%6d %s", (k++),seasons[c]);
                     }
